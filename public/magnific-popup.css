@@ -1,0 +1,351 @@
+/ * Magnífico CSS emergente * /
+. mfp-bg {
+  arriba :  0 ;
+  izquierda :  0 ;
+  ancho :  100 % ;
+  altura :  100 % ;
+  índice z :  1042 ;
+  desbordamiento : oculto;
+  posición : fija;
+  fondo :  # 0b0b0b ;
+  opacidad :  0,8 ; }
+
+. mfp-wrap {
+  arriba :  0 ;
+  izquierda :  0 ;
+  ancho :  100 % ;
+  altura :  100 % ;
+  índice z :  1043 ;
+  posición : fija;
+  esquema : ninguno ! importante ;
+  -webkit-backface-visibilidad : oculto; }
+
+. mfp-container {
+  alineación de texto : centro;
+  posición : absoluta;
+  ancho :  100 % ;
+  altura :  100 % ;
+  izquierda :  0 ;
+  arriba :  0 ;
+  relleno :  0  8 px ;
+  de caja de tamaño : frontera-box; }
+
+. mfp-container : before {
+  contenido :  '' ;
+  pantalla : bloque en línea;
+  altura :  100 % ;
+  alineación vertical : medio; }
+
+. mfp-align-top . mfp-container : before {
+  pantalla : ninguna; }
+
+. mfp-content {
+  posición : relativa;
+  pantalla : bloque en línea;
+  alineación vertical : medio;
+  margen :  0 automático;
+  alineación de texto : izquierda;
+  índice z :  1045 ; }
+
+. mfp-inline-holder . contenido de mfp ,
+. mfp-ajax-holder . mfp-content {
+  ancho :  100 % ;
+  cursor : auto; }
+
+. mfp-ajax-cur {
+  cursor : progreso; }
+
+. MFP-zoom-out-act , . mfp-zoom-out-cur . soporte-imagen-mfp . mfp-close {
+  cursor : -moz-zoom-out;
+  cursor : -kit-web-zoom-out;
+  cursor : alejar; }
+
+. mfp-zoom {
+  cursor : puntero;
+  cursor : -kit-web-zoom-in;
+  cursor : -moz-zoom-in;
+  cursor : acercar; }
+
+. mfp-auto-cursor . mfp-content {
+  cursor : auto; }
+
+. mfp-close ,
+. flecha-mfp ,
+. precargador de mfp ,
+. contador-mfp {
+  -webkit-user-select : ninguno;
+  -moz-user-select : ninguno;
+  selección de usuario : ninguno; }
+
+. carga de mfp . mfp-figure {
+  pantalla : ninguna; }
+
+. mfp-hide {
+  pantalla : ninguna ! importante ; }
+
+. mfp-preloader {
+  color :  # CCC ;
+  posición : absoluta;
+  arriba :  50 % ;
+  ancho : auto;
+  alineación de texto : centro;
+  margen superior :  -0,8 em ;
+  izquierda :  8 px ;
+  derecha :  8 px ;
+  índice z :  1044 ; }
+  . mfp-preloader  a {
+    color :  # CCC ; }
+    . mfp-preloader  a : hover {
+      color :  # FFF ; }
+
+. mfp-s-ready . mfp-preloader {
+  pantalla : ninguna; }
+
+. Error de mfp-s . mfp-content {
+  pantalla : ninguna; }
+
+botón . mfp-close ,
+botón . mfp-arrow {
+  desbordamiento : visible;
+  cursor : puntero;
+  fondo : transparente;
+  borde :  0 ;
+  -aparición del kit de web : ninguna;
+  pantalla : bloque;
+  esquema : ninguno;
+  acolchado :  0 ;
+  índice z :  1046 ;
+  sombra de caja : ninguna;
+  tacto-acción : manipulación; }
+
+botón :: -moz-focus-inner {
+  acolchado :  0 ;
+  borde :  0 ; }
+
+. mfp-close {
+  ancho :  44 px ;
+  altura :  44 px ;
+  altura de línea :  44 px ;
+  posición : absoluta;
+  derecha :  0 ;
+  arriba :  0 ;
+  decoración de texto : ninguna;
+  alineación de texto : centro;
+  opacidad :  0,65 ;
+  relleno :  0  0  18 px  10 px ;
+  color :  # FFF ;
+  estilo de fuente : normal;
+  tamaño de fuente :  28 px ;
+  familia de fuentes : Arial , Baskerville , monoespacio; }
+  . mfp-close : hover ,
+  . mfp-close : focus {
+    opacidad :  1 ; }
+  . mfp-close : active {
+    arriba :  1 px ; }
+
+. mfp-close-btn-in . mfp-close {
+  color :  # 333 ; }
+
+. soporte-imagen-mfp . mfp-close ,
+. mfp-iframe-holder . mfp-close {
+  color :  # FFF ;
+  derecha :  -6 px ;
+  alineación de texto : derecha;
+  padding-right :  6 px ;
+  ancho :  100 % ; }
+
+. contador-mfp {
+  posición : absoluta;
+  arriba :  0 ;
+  derecha :  0 ;
+  color :  # CCC ;
+  tamaño de fuente :  12 px ;
+  altura de línea :  18 px ;
+  espacio en blanco : nowrap; }
+
+. mfp-arrow {
+  posición : absoluta;
+  opacidad :  0,65 ;
+  margen :  0 ;
+  arriba :  50 % ;
+  margen superior :  -55 px ;
+  acolchado :  0 ;
+  ancho :  90 px ;
+  altura :  110 px ;
+  -webkit-tap-highlight-color : transparente; }
+  . mfp-arrow : active {
+    margen superior :  -54 px ; }
+  . flecha-mfp : desplazarse ,
+  . mfp-arrow : focus {
+    opacidad :  1 ; }
+  . flecha-mfp : antes ,
+  . mfp-arrow : después de {
+    contenido :  '' ;
+    pantalla : bloque;
+    ancho :  0 ;
+    altura :  0 ;
+    posición : absoluta;
+    izquierda :  0 ;
+    arriba :  0 ;
+    margen superior :  35 px ;
+    margen izquierdo :  35 px ;
+    borde : inserción media transparente; }
+  . mfp-arrow : después de {
+    border-top-width :  13 px ;
+    border-bottom-width :  13 px ;
+    superior :  8 px ; }
+  . mfp-arrow : antes de {
+    border-top-width :  21 px ;
+    border-bottom-width :  21 px ;
+    opacidad :  0,7 ; }
+
+. mfp-arrow-left {
+  izquierda :  0 ; }
+  . mfp-arrow-left : after {
+    borde derecho :  17 px sólido # FFF ;
+    margen izquierdo :  31 px ; }
+  . mfp-arrow-left : antes de {
+    margen izquierdo :  25 px ;
+    borde derecho :  27 px sólido # 3F3F3F ; }
+
+. mfp-arrow-right {
+  derecha :  0 ; }
+  . mfp-arrow-right : after {
+    borde izquierdo :  17 px sólido # FFF ;
+    margen izquierdo :  39 px ; }
+  . mfp-arrow-right : antes de {
+    borde izquierdo :  27 px sólido # 3F3F3F ; }
+
+. mfp-iframe-holder {
+  padding-top :  40 px ;
+  fondo acolchado :  40 px ; }
+  . mfp-iframe-holder . mfp-content {
+    altura de línea :  0 ;
+    ancho :  100 % ;
+    ancho máximo :  900 px ; }
+  . mfp-iframe-holder . mfp-close {
+    superior :  -40 px ; }
+
+. mfp-iframe-scaler {
+  ancho :  100 % ;
+  altura :  0 ;
+  desbordamiento : oculto;
+  acolchado superior :  56,25 % ; }
+  . MFP-iframe-escalador  iframe {
+    posición : absoluta;
+    pantalla : bloque;
+    arriba :  0 ;
+    izquierda :  0 ;
+    ancho :  100 % ;
+    altura :  100 % ;
+    caja-sombra :  0  0  8 px  rgba ( 0 ,  0 ,  0 ,  0.6 );
+    fondo :  # 000 ; }
+
+/ * Imagen principal en ventana emergente * /
+img . mfp-img {
+  ancho : auto;
+  ancho máximo :  100 % ;
+  altura : auto;
+  pantalla : bloque;
+  altura de línea :  0 ;
+  de caja de tamaño : frontera-box;
+  relleno :  40 px  0  40 px ;
+  margen :  0 automático; }
+
+/ * La sombra detrás de la imagen * /
+. mfp-figure {
+  altura de línea :  0 ; }
+  . mfp-figure : after {
+    contenido :  '' ;
+    posición : absoluta;
+    izquierda :  0 ;
+    superior :  40 px ;
+    abajo :  40 px ;
+    pantalla : bloque;
+    derecha :  0 ;
+    ancho : auto;
+    altura : auto;
+    índice z :  -1 ;
+    caja-sombra :  0  0  8 px  rgba ( 0 ,  0 ,  0 ,  0.6 );
+    fondo :  # 444 ; }
+  . mfp-figure  small {
+    color :  # BDBDBD ;
+    pantalla : bloque;
+    tamaño de fuente :  12 px ;
+    altura de línea :  14 px ; }
+  . mfp-figure  figure {
+    margen :  0 ; }
+
+. mfp-bottom-bar {
+  margen superior :  -36 px ;
+  posición : absoluta;
+  arriba :  100 % ;
+  izquierda :  0 ;
+  ancho :  100 % ;
+  cursor : auto; }
+
+. mfp-title {
+  alineación de texto : izquierda;
+  altura de línea :  18 px ;
+  color :  # F3F3F3 ;
+  ajuste de palabra : palabra de ruptura;
+  padding-right :  36 px ; }
+
+. soporte-imagen-mfp . mfp-content {
+  ancho máximo :  100 % ; }
+
+. galería-mfp . soporte-imagen-mfp . mfp-figure {
+  cursor : puntero; }
+
+@media pantalla y ( ancho máximo :  800 px ) y ( orientación : paisaje) , pantalla y ( altura máxima :  300 px ) {
+  / **
+       * Elimina todos los acolchados alrededor de la imagen en la pantalla pequeña
+       * /
+  . mfp-img-mobile . mfp-image-holder {
+    padding-left :  0 ;
+    padding-right :  0 ; }
+  . mfp-img-mobile  img . mfp-img {
+    acolchado :  0 ; }
+  . mfp-img-mobile . mfp-figure : after {
+    arriba :  0 ;
+    abajo :  0 ; }
+  . mfp-img-mobile . mfp-figure  small {
+    pantalla : en línea;
+    margen izquierdo :  5 px ; }
+  . mfp-img-mobile . mfp-bottom-bar {
+    fondo :  rgba ( 0 ,  0 ,  0 ,  0.6 );
+    abajo :  0 ;
+    margen :  0 ;
+    arriba : auto;
+    relleno :  3 px  5 px ;
+    posición : fija;
+    de caja de tamaño : frontera-box; }
+    . mfp-img-mobile . mfp-bottom-bar : vacío {
+      acolchado :  0 ; }
+  . mfp-img-mobile . contador-mfp {
+    derecha :  5 px ;
+    arriba :  3 px ; }
+  . mfp-img-mobile . mfp-close {
+    arriba :  0 ;
+    derecha :  0 ;
+    ancho :  35 px ;
+    altura :  35 px ;
+    altura de línea :  35 px ;
+    fondo :  rgba ( 0 ,  0 ,  0 ,  0.6 );
+    posición : fija;
+    alineación de texto : centro;
+    acolchado :  0 ; }}
+
+@media todo y ( ancho máximo :  900 px ) {
+  . mfp-arrow {
+    -webkit-transform :  escala ( 0,75 );
+    transformar :  escala ( 0,75 ); }
+  . mfp-arrow-left {
+    -kit-web-transformación-origen :  0 ;
+    origen de transformación :  0 ; }
+  . mfp-arrow-right {
+    -webkit-transform-origin :  100 % ;
+    origen de transformación :  100 % ; }
+  . mfp-container {
+    padding-left :  6 px ;
+    padding-right :  6 px ; }}
